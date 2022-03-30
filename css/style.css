@@ -21,7 +21,10 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 ::placeholder {
@@ -77,11 +80,6 @@ body {
         width: 320px;
         height: 404px
     }
-    
-    body{
-        height: fit-content
-    }
-
 }
 
 .container form {
