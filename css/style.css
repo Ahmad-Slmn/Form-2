@@ -77,6 +77,10 @@ body {
         width: 320px;
         height: 404px
     }
+    
+    body{
+        height: fit-content
+    }
 
 }
 
