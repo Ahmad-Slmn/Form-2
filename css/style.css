@@ -158,7 +158,8 @@ body {
     text-align: center;
     position: relative;
     color: #333;
-    font-weight: bold
+    font-weight: bold;
+    margin-right: 5px
 }
 
 #porges {
