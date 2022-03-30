@@ -51,11 +51,11 @@ body {
     transition: all .5s ease-in-out
 }
 
-.alert.down{
+.alert.down {
     top: 0
 }
 
-.alert i{
+.alert i {
     margin: 0 10px 0 5px
 }
 
@@ -69,6 +69,15 @@ body {
     position: relative;
     border-radius: 10px;
     overflow: hidden
+}
+
+@media(max-width:450px) {
+
+    .container {
+        width: 338px;
+        height: 404px
+    }
+
 }
 
 .container form {
