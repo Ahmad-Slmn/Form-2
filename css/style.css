@@ -1,0 +1,161 @@
+/* Start My Frame Work */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: arial
+}
+
+input {
+    outline: none
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.8)), url(../image/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
+::placeholder {
+    transition: opacity .5s ease-in-out;
+    font-weight: bold
+}
+
+:focus::placeholder {
+    opacity: 0
+}
+
+.alert {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all .5s ease-in-out
+}
+
+.alert.down{
+    top: 0
+}
+
+.alert i{
+    margin: 0 10px 0 5px
+}
+
+/* End My Frame Work */
+
+.container {
+    width: 360px;
+    height: 400px;
+    margin: 8% auto;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.container form {
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: .5s ease-in-out
+}
+
+.container form h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777
+}
+
+.container form input {
+    width: 100%;
+    padding: 20px 5px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    background: transparent
+}
+
+::placeholder {
+    color: #777
+}
+
+.container form .btn-box {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center
+}
+
+.container form .btn-box button {
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ff105f, #ffad06)
+}
+
+#form2 {
+    left: 450px
+}
+
+#form3 {
+    left: 450px
+}
+
+.container .step-row {
+    position: relative;
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000
+}
+
+.container .step-row .step-col {
+    width: 120px;
+    text-align: center;
+    position: relative;
+    color: #333;
+    font-weight: bold
+}
+
+#porges {
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    transition: .5s ease-in-out
+}
+
+#porges::after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #ffad06;
+}

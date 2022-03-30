@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset = "UTF-8"/>
+  <meta name="discription" content ="js"/>
+    <title>Form</title>
+      <!-- Font Awesome -->
+    <link rel="stylesheet"  href="css/all.min.css"/>
+     <!-- My Main Style-css-->
+     <link rel='stylesheet' href="css/style.css"/>
+ </head>
+<body> 
+  <div class="alert"><i class="fa-solid fa-triangle-exclamation"></i>please fill out all this fields</div>
+  <div class="container">
+    <form id="form1">
+        <h3>create account</h3>
+        <input type="text" name="name" placeholder="name" required class="input">
+        <input type="password" name="password" placeholder="password" required>
+        <input type="password" name="password" placeholder=" confirm password" required>
+        
+        <div class="btn-box">
+            <button type="button" id="next1">next</button>
+        </div>
+    </form>  
+      
+     <form id="form2">
+        <h3>social links</h3>
+        <input type="text" name="medium" placeholder="medium">
+        <input type="text" name="github" placeholder="github">
+        <input type="text" name="linkedin" placeholder="linkedin">
+        <div class="btn-box">
+            <button type="button" id="back1">back</button>
+            
+            <button type="button" id="next2">next</button>
+        </div>
+    </form>  
+      
+      <form id="form3">
+        <h3>personal info</h3>
+        <input type="text" name="forst-name" placeholder="first name" required>
+        <input type="text" name="last-name" placeholder="last name" required>
+        <input type="text" name="number" placeholder="mobile number" required>
+        <div class="btn-box">
+            <button type="button" id="back2">back</button>
+            
+            <button type="submit">submit</button>
+        </div>
+    </form>
+      
+      <div class="step-row">
+          <div id="porges"></div>
+          <div class="step-col"><small>step 1</small></div>
+          <div class="step-col"><small>step 2</small></div>
+          <div class="step-col"><small>step 3</small></div>
+      </div>
+</div>
+   <script src="js/main.js"></script>
+</body>
+</html>
