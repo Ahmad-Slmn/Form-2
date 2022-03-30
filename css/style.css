@@ -74,17 +74,17 @@ body {
 @media(max-width:450px) {
 
     .container {
-        width: 338px;
+        width: 320px;
         height: 404px
     }
 
 }
 
 .container form {
-    width: 280px;
+    width: 100%;
     position: absolute;
     top: 100px;
-    left: 40px;
+    left: 0;
     transition: .5s ease-in-out
 }
 
@@ -106,10 +106,22 @@ body {
     color: #777
 }
 
+.container form input:focus {
+    border-bottom-color: #ffad06
+}
+
 .container form .btn-box {
     width: 100%;
     margin: 30px auto;
     text-align: center
+}
+
+@media(max-width:450px) {
+
+    .container form .btn-box {
+
+        margin: 30px -10px
+    }
 }
 
 .container form .btn-box button {
